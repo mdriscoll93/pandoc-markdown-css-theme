@@ -316,29 +316,29 @@ Next line</label></li>
 <a href="#">→ Not actually a list</a></p>
 <h1 id="code-blocks">Code blocks</h1>
 <p>Ah yes, who could forget about the code blocks.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource ruby numberLines hl-7 hl-8 hl-9 hl-10"><code class="sourceCode ruby"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># typed: true</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">require</span> <span class="vs">&#39;sorbet-runtime&#39;</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="cf">class</span> <span class="cn">A</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a>  <span class="fu">extend</span> <span class="cn">T</span><span class="op">::</span><span class="dt">Sig</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a></span>
-<span id="cb1-7"><a href="#cb1-7"></a>  sig <span class="op">{</span>void<span class="op">}</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a>  <span class="cf">def</span> <span class="dv">self</span><span class="at">.main</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a>    <span class="fu">puts</span> <span class="st">&quot;Hello, world!&quot;</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a>  <span class="cf">end</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="cf">end</span></span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource ruby numberLines hl-7 hl-8 hl-9 hl-10"><code class="sourceCode ruby"><span id="cb1-1"><a href="#cb1-1" aria-label="1"></a><span class="co"># typed: true</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-label="2"></a><span class="fu">require</span> <span class="vs">&#39;sorbet-runtime&#39;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-label="3"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-label="4"></a><span class="cf">class</span> <span class="cn">A</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-label="5"></a>  <span class="fu">extend</span> <span class="cn">T</span><span class="op">::</span><span class="dt">Sig</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-label="6"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-label="7"></a>  sig <span class="op">{</span>void<span class="op">}</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-label="8"></a>  <span class="cf">def</span> <span class="dv">self</span><span class="at">.main</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-label="9"></a>    <span class="fu">puts</span> <span class="st">&quot;Hello, world!&quot;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-label="10"></a>  <span class="cf">end</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-label="11"></a><span class="cf">end</span></span></code></pre></div>
 <p>Here is a short paragraph between code blocks.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource ruby numberLines"><code class="sourceCode ruby"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># This is a really long line that causes the text to wrap onto multiple lines in a code block that uses syntax highlighting AND line numbers.</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource ruby numberLines"><code class="sourceCode ruby"><span id="cb2-1"><a href="#cb2-1" aria-label="1"></a><span class="co"># This is a really long line that causes the text to wrap onto multiple lines in a code block that uses syntax highlighting AND line numbers.</span></span></code></pre></div>
 <div class="sourceCode" id="cb3"><pre class="sourceCode ruby"><code class="sourceCode ruby"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">puts</span> <span class="vs">&#39;It should also work without line numbers.&#39;</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># This is a really long line that causes the text to wrap onto multiple lines in a code block that uses syntax highlighting BUT NOT line numbers.</span></span></code></pre></div>
 <p>Check out the subtle line numbers. This is <code>some inline code</code> with text after it.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource numberLines hl-1"><code class="sourceCode"><span id="cb4-1"><a href="#cb4-1"></a>This code does not have a language associated with it. This is the point at which the code would wrap a long line.</span>
-<span id="cb4-2"><a href="#cb4-2"></a></span>
-<span id="cb4-3"><a href="#cb4-3"></a>Some more lines to make Paper give us line numbers.</span>
-<span id="cb4-4"><a href="#cb4-4"></a>Some more lines to make Paper give us line numbers.</span>
-<span id="cb4-5"><a href="#cb4-5"></a>Some more lines to make Paper give us line numbers.</span>
-<span id="cb4-6"><a href="#cb4-6"></a>Some more lines to make Paper give us line numbers.</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource numberLines hl-1"><code class="sourceCode"><span id="cb4-1"><a href="#cb4-1" aria-label="1"></a>This code does not have a language associated with it. This is the point at which the code would wrap a long line.</span>
+<span id="cb4-2"><a href="#cb4-2" aria-label="2"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-label="3"></a>Some more lines to make Paper give us line numbers.</span>
+<span id="cb4-4"><a href="#cb4-4" aria-label="4"></a>Some more lines to make Paper give us line numbers.</span>
+<span id="cb4-5"><a href="#cb4-5" aria-label="5"></a>Some more lines to make Paper give us line numbers.</span>
+<span id="cb4-6"><a href="#cb4-6" aria-label="6"></a>Some more lines to make Paper give us line numbers.</span></code></pre></div>
 <pre><code>This code does not have a language associated with it. This is the point at which the code would wrap a long line.
 ┌┐
 └┘</code></pre>
@@ -358,12 +358,12 @@ This is tight code in action.</code></pre>
 </figcaption>
 </figure>
 <figure class="wide left-align-caption">
-<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource numberLines hl-3"><code class="sourceCode"><span id="cb8-1"><a href="#cb8-1"></a>This code block has an absolutely large amount of text in it for who knows what reason. Who is the kind of heathen who would willfully write code with lines this long?</span>
-<span id="cb8-2"><a href="#cb8-2"></a></span>
-<span id="cb8-3"><a href="#cb8-3"></a>Scroll → all the way to the left to double check that this line highlight works.</span>
-<span id="cb8-4"><a href="#cb8-4"></a></span>
-<span id="cb8-5"><a href="#cb8-5"></a>← A current limitation is that `.wide` + `.numberLines` causes the line numbers to</span>
-<span id="cb8-6"><a href="#cb8-6"></a>be hidden.</span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource numberLines hl-3"><code class="sourceCode"><span id="cb8-1"><a href="#cb8-1" aria-label="1"></a>This code block has an absolutely large amount of text in it for who knows what reason. Who is the kind of heathen who would willfully write code with lines this long?</span>
+<span id="cb8-2"><a href="#cb8-2" aria-label="2"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-label="3"></a>Scroll → all the way to the left to double check that this line highlight works.</span>
+<span id="cb8-4"><a href="#cb8-4" aria-label="4"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-label="5"></a>← A current limitation is that `.wide` + `.numberLines` causes the line numbers to</span>
+<span id="cb8-6"><a href="#cb8-6" aria-label="6"></a>be hidden.</span></code></pre></div>
 <figcaption>
 This is the code block’s caption. Like many of the other captions on the page, it has a lot of text in it so that it’s forced to wrap eventually.
 </figcaption>
